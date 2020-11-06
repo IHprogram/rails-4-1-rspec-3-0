@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.1'
+gem 'rails', '6.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -41,10 +41,10 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass', '~> 3.1.1'
 
 group :development, :test do
-  gem "rspec-rails", "~> 3.1.0"
-  gem "factory_girl_rails", "~> 4.4.1"
-  gem 'guard-rspec', '~> 4.3.1'
-  gem 'spring-commands-rspec', '~> 1.0.2'
+  gem "rspec-rails"
+  gem "factory_bot_rails"
+  gem 'guard-rspec'
+  gem 'spring-commands-rspec'
 end
 
 group :test do
